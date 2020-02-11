@@ -1,0 +1,12 @@
+$ git log
+commit f1e2faa92277996e5043f2492cc0e41e4ae17f08 (HEAD -> master)
+Author: Пашковский Лев <satyd@mail.ru>
+Date:   Tue Feb 11 21:16:44 2020 +0300
+
+    add.status.txt
+
+commit 6d958a43abe480bf9e8bb1e1de4c813b3f3e0203
+Author: Пашковский Лев <satyd@mail.ru>
+Date:   Tue Feb 11 21:13:18 2020 +0300
+
+    add.gitignore
