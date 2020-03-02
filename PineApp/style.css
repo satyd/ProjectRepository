@@ -1,0 +1,109 @@
+header {
+    background-color:rgb(210, 255, 240);
+}
+
+#searchbar{
+    padding:7px;
+    margin: 1px;
+    margin-left: 20%;
+    border: 2px solid darkslategrey;
+    border-radius: 70px;
+    width: 30%;
+}
+
+#tagsearch{
+    padding: 20px;
+    border: 2px solid darkslategrey;
+    
+    width: 8%;
+    text-align: start;  
+    border-radius: 10px;
+}
+
+#post{
+    padding: 40px;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    text-align: start; 
+    
+    width: 86%;
+    
+    
+}
+main{
+    background-color: lightcyan;
+    width: 45%;
+    margin-left: 20%;
+}
+.menu{
+    padding:10px;
+    margin-left:77%;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.menu:hover{
+    border: 3px solid black;
+}
+
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+    color: #999999;
+}
+.sidebars{
+    display: inline;
+    vertical-align: top;
+    
+}
+.userpost{
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.posts{
+    margin-top: 2px;
+}
+.post{
+    background-color: #fcfafa;
+    border: 1px solid gray;
+}
+.contents{
+    display: block;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+.postheader p{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.points{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.tags{
+    padding: 3px;
+    border: 1px solid lightskyblue;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.header{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
