@@ -1,0 +1,312 @@
+{
+	"id": "eee1196e-1334-448d-b039-e68791c783e7",
+	"name": "up1",
+	"timestamp": "2020-03-15T14:03:35.879Z",
+	"collection_id": "24e64f11-28bf-42b2-8262-cab3951f2c4f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "bfe6f1f5-cb6e-4a58-8c2f-46905923b337",
+			"name": "bnb data bl uk1",
+			"url": "https://bnb.data.bl.uk/",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"userId from env is equal to userId from response": false
+			},
+			"testPassFailCounts": {
+				"userId from env is equal to userId from response": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"userId from env is equal to userId from response": false
+				}
+			]
+		},
+		{
+			"id": "e1a930c5-c5d2-47fe-9508-4a945b2d991a",
+			"name": "bnd data bl uk2",
+			"url": "https://bnb.data.bl.uk/?userId=420",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				226
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4e6efc27-15f5-49dc-9056-8ca2634b2eb8",
+			"name": "twitter1",
+			"url": "https://developer.twitter.com/en/docs",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				172
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d4f7ccca-828a-40c2-af63-92a9295a11a1",
+			"name": "twitter2",
+			"url": "https://api.twitter.com/1.1/direct_messages/welcome_messages/rules/new.json",
+			"time": 161,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				161
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d8707c05-89f1-4bd5-b5aa-7de6c422deb4",
+			"name": "try1 w1",
+			"url": "http://api.tvmaze.com/shows/1/episodes?specials=1",
+			"time": 52,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				52
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4cae1d06-3a1f-4954-9fd1-fbbef3ca4c41",
+			"name": "try2 w2",
+			"url": "http://api.tvmaze.com/episodes/1?embed=show",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "34955123-fd36-4d56-978d-2633c3051b60",
+			"name": "try3 w3",
+			"url": "http://api.tvmaze.com/people/1?embed=castcredits",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				45
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9d92ff59-bca8-4fb5-9f00-41886d92c253",
+			"name": "sec1",
+			"url": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&callback=mycallback",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				221
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e002d1ca-525e-451e-b575-3b51f6e3d908",
+			"name": "sec2",
+			"url": "http://covers.openlibrary.org/a/olid/OL229501A-S.jpg",
+			"time": 455,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				455
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b762099c-5234-4e7a-811f-0e0be5a07e85",
+			"name": "sec3",
+			"url": "http://openlibrary.org/recentchanges/2010/08/merge-authors.json",
+			"time": 1114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1114
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83697b31-0f06-4287-835e-5215ce762f17",
+			"name": "third",
+			"url": "https://http.cat/401.jpg",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				151
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ec27ad35-f7df-4c4f-94f4-c1444b0711f7",
+			"name": "third2",
+			"url": "https://http.cat/200",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "654f6310-9b87-4698-a3d4-fc13d192c8e3",
+			"name": "third3",
+			"url": "https://http.cat/406",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				138
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"collection": {
+		"requests": [
+			{
+				"id": "bfe6f1f5-cb6e-4a58-8c2f-46905923b337",
+				"method": "GET"
+			},
+			{
+				"id": "e1a930c5-c5d2-47fe-9508-4a945b2d991a",
+				"method": "POST"
+			},
+			{
+				"id": "4e6efc27-15f5-49dc-9056-8ca2634b2eb8",
+				"method": "GET"
+			},
+			{
+				"id": "d4f7ccca-828a-40c2-af63-92a9295a11a1",
+				"method": "POST"
+			},
+			{
+				"id": "d8707c05-89f1-4bd5-b5aa-7de6c422deb4",
+				"method": "GET"
+			},
+			{
+				"id": "4cae1d06-3a1f-4954-9fd1-fbbef3ca4c41",
+				"method": "GET"
+			},
+			{
+				"id": "34955123-fd36-4d56-978d-2633c3051b60",
+				"method": "GET"
+			},
+			{
+				"id": "9d92ff59-bca8-4fb5-9f00-41886d92c253",
+				"method": "GET"
+			},
+			{
+				"id": "e002d1ca-525e-451e-b575-3b51f6e3d908",
+				"method": "GET"
+			},
+			{
+				"id": "b762099c-5234-4e7a-811f-0e0be5a07e85",
+				"method": "GET"
+			},
+			{
+				"id": "83697b31-0f06-4287-835e-5215ce762f17",
+				"method": "GET"
+			},
+			{
+				"id": "ec27ad35-f7df-4c4f-94f4-c1444b0711f7",
+				"method": "GET"
+			},
+			{
+				"id": "654f6310-9b87-4698-a3d4-fc13d192c8e3",
+				"method": "GET"
+			}
+		]
+	}
+}
