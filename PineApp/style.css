@@ -1,49 +1,90 @@
 header {
     background-color:rgb(210, 255, 240);
+    display         : flex;
+    flex-wrap       : nowrap;
+    
 }
 
 #searchbar{
+
     padding:7px;
-    margin: 1px;
-    margin-left: 20%;
+    margin-left: 10%;
     border: 2px solid darkslategrey;
     border-radius: 70px;
     width: 30%;
+    vertical-align: middle;
 }
-
+.search{
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 100%; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+}
+.searchbtn{
+    width: 25px; 
+    border: none; 
+    background: transparent;
+    vertical-align: middle;
+}
 #tagsearch{
     padding: 20px;
     border: 2px solid darkslategrey;
-    
-    width: 8%;
+    width: 20%;
     text-align: start;  
     border-radius: 10px;
 }
 
 #post{
+    display: block;
+    margin: auto;
     padding: 40px;
     border: 2px solid darkslategrey;
     border-radius: 10px;
     text-align: start; 
+    width: 88%;  
+}
+.postbtn{
+    margin-top: 3px;
+    width: 60px;
+    height: 36px;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    background: lightskyblue;
+    float: right;
+}
+.inputside{
+    padding-bottom: 3px;
+    border-bottom: 3px solid greenyellow;
+}
+.add{
+    margin-top: 3px;
+    width: 30px;
+}
+.clip{
     
-    width: 86%;
-    
-    
+    outline: none;
+    border: 0;
+    background: transparent;
 }
 main{
     background-color: lightcyan;
-    width: 45%;
-    margin-left: 20%;
+    width: 90%;
+    
 }
 .menu{
+    width:20%;
+    float: right;
+    vertical-align:middle;
+}
+.itmenu{
     padding:10px;
-    margin-left:77%;
-    border: 1px solid black;
-    width: 20%;
+    border: 1px solid lightgray;
 }
 
-.menu:hover{
-    border: 3px solid black;
+.itmenu:hover{
+    border: 1px solid red;
 }
 
 
@@ -53,17 +94,20 @@ main{
     margin-top: 30%;
     color: #999999;
 }
-.sidebars{
-    display: inline;
-    vertical-align: top;
-    
-}
+
 .userpost{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.userimg{
+    vertical-align:middle; 
     border: 1px solid gray;
+    width: 50px;
     border-radius: 50px;
 }
 .posts{
-    margin-top: 2px;
+    margin-top: 5px;
 }
 .post{
     background-color: #fcfafa;
@@ -101,9 +145,46 @@ main{
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    background: lightskyblue;
 }
 .header{
     display: inline-block;
     vertical-align: top;
     text-align: center;
+}
+.nobg{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.cards {
+    display         : flex;
+    flex-wrap       : nowrap;
+    justify-content : space-between;
+    
+}
+.header-image {
+    vertical-align: middle;
+}
+.header-image-logo {
+    width: 40px;
+}
+.header-user-image {
+    width: 30px;
+}
+.pstyle{
+    vertical-align:middle; 
+    width: 30px;
+}
+.editshare{
+    vertical-align:middle; 
+    width: 40px;
+    float: right;
+}
+
+.sidebars {
+    /*width : calc(30% - 10px);*/
+    margin-bottom : 1em;
+    
 }

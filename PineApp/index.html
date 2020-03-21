@@ -11,66 +11,109 @@
 
   <body>
     <header>
-      <a href="https://www.youtube.com/watch?v=MtXOebqloX8"><img class="header" style="vertical-align: middle; width: 40px;" src="images\home.png" alt=""></a>
-      <img class="header" id="userpng" style="vertical-align:middle; width: 30px;" src="images\user.png" alt="" />
+      <button class="nobg">
+        <img class="header header-image header-image-logo" src="images\home.png" alt="">
+      </button>
+      <button class="nobg">
+        <img class="header header-user-image" src="images\user.png" alt="">
+      </button>
       <p class="header"> Username</p>
-      <input id="searchbar" value="Search..."/>
+      <div class="search">
+        <input id="searchbar" value="Search..."/>
+        <button class="searchbtn">
+          <img class="searchbtn" src="images\search.png" alt="">
+        </button>
+      </div>
       <button  style="vertical-align: middle; float: right;"> Sign Out</button>
     </header>
-   
-    <input id="tagsearch"style="vertical-align: middle;" value="Insert tag..."/>
-    <main>
-      <section>
-        <div><input id="post"style="vertical-align: middle;" value="Create post..."/></div>
+    
+    <section class="cards">
+      <section class="sidebars">
+        <input id="tagsearch"style="vertical-align: middle;" value="Insert tag..."/>
       </section>
-      <section class="posts">
-        <div class="post">
-          <section class="postheader">
-            <img class="userpost" style="vertical-align:middle; width: 50px;" src="images\cat_user.png" alt="">
-            <p> NightMeoWare</p>
-            <p> 02.03.2020</p>
-            <img style="vertical-align:middle; width: 40px; float: right;" src="images\edit.png" alt=""><br/>
-            <p class="tags"> meme </p>
-            <p class="tags"> memes </p>
-          </section><br/>
-          <img class="contents" style="vertical-align:middle; width: 90%;" src="images\bats.png" alt="" />
-          <section class="postfooter">
-            <img class="points" style="vertical-align:middle; width: 30px;" src="images\like.png" alt="">
-            <p class="points">Points</p>
-            <img class="points" style="vertical-align:middle; width: 30px;" src="images\dislike.png" alt="">
-            <img class="points" style="vertical-align:middle; width: 30px; float: right;" src="images\share.png" alt="">
+      <section class="sidebars">
+        <main>
+          <section class="inputside">
+            <input id="post"style="vertical-align: middle;" value="Create post..."/>
+            <section class="inputbtns">
+              <button class="clip">
+                <img class="add" src="images\clip.png" alt="">
+              </button>
+              <button class="postbtn">Post</button>
+            </section>
           </section>
-        </div>
-        <div class="post">
-          <section class="postheader">
-            <img class="userpost" style="vertical-align:middle; width: 50px;" src="images\user2.png" alt="">
-            <p> Random User</p>
-            <p> 30.02.2020</p>
-            <img style="vertical-align:middle; width: 40px; float: right;" src="images\edit.png" alt="">
-          </section><br/>
-          <img class="contents" style="vertical-align:middle; width: 90%;" src="images\post2.jpg" alt="" />
-          <section class="postfooter">
-            <img class="points" style="vertical-align:middle; width: 30px;" src="images\like.png" alt="">
-            <p class="points">Points</p>
-            <img class="points" style="vertical-align:middle; width: 30px;" src="images\dislike.png" alt="">
-            <img class="points" style="vertical-align:middle; width: 30px; float: right;" src="images\share.png" alt="">
-          </section>
-        </div>
+          <section class="posts">
+            <div class="post">
+              <section class="postheader">
+                <button class="userpost">
+                  <img class="userimg" src="images\cat_user.png" alt="">
+                </button>
+                <p> NightMeoWare</p>
+                <p> 02.03.2020</p>
+                <button class="nobg editshare">
+                  <img class="editshare" src="images\edit.png" alt="">
+                </button><br/>
+                <button class="tags">meme</button>
+                <button class="tags">memes</button>
+              </section><br/>
+              <button class="nobg">
+                <img class="contents" style="vertical-align:middle; width: 90%;" src="images\bats.png" alt="" />
+              </button>
+              <section class="postfooter">
+                <button class="nobg">
+                  <img class="points pstyle" src="images\like.png" alt="">
+                </button>
+                <p class="points">Points</p>
+                <button class="nobg">
+                  <img class="points pstyle"  src="images\dislike.png" alt="">
+                </button>
+                <button class="nobg editshare">
+                  <img class="points pstyle" src="images\share.png" alt="">
+                </button>
+              </section>
+            </div>
+            <div class="post">
+              <section class="postheader">
+                <button class="userpost">
+                  <img class="userimg" src="images\user2.png" alt="">
+                </button>
+                
+                <p> Random User</p>
+                <p> 30.02.2020</p>
+                <button class="nobg editshare">
+                  <img class="editshare" src="images\edit.png" alt="">
+                </button><br/>
+              </section><br/>
+              <img class="contents" style="vertical-align:middle; width: 90%;" src="images\post2.jpg" alt="" />
+              <section class="postfooter">
+                <button class="nobg">
+                  <img class="points pstyle" src="images\like.png" alt="">
+                </button>
+                <p class="points">Points</p>
+                <button class="nobg">
+                  <img class="points pstyle"  src="images\dislike.png" alt="">
+                </button>
+                <button class="nobg editshare">
+                  <img class="points pstyle" src="images\share.png" alt="">
+                </button>
+              </section>
+            </div>
+          
+        </main>
       </section>
-
-    </main>
-    <!--<section class="sidebars">
-      <div class="menu"> Option 1</div>
-      <div class="menu"> Option 2</div>
-      <div class="menu"> Option 3</div>
-      <div class="menu"> Option 4</div>
-    </section>-->
+      <section class="sidebars menu" >
+        <div class="itmenu"> Option 1</div>
+        <div class="itmenu"> Option 2</div>
+        <div class="itmenu"> Option 3</div>
+        <div class="itmenu"> Option 4</div>
+      </section>
+    </section>
     <footer class="site-footer">
       <p>PineApp </p>
       <p>Пашковский Лев</p>
       <p>8 группа</p>
       <p>satyd@mail.ru </p>
-      <p>02.03.2020</p>
+      <p>21.03.2020</p>
     </footer>
   </body>
   
