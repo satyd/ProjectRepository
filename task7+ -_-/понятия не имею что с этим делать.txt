@@ -1,0 +1,55 @@
+npm install -g --save-dev eslint-config-airbnb
+npm WARN eslint-config-airbnb@18.1.0 requires a peer of eslint@^5.16.0 || ^6.8.0 but none is installed. You must install
+peer dependencies yourself.
+npm WARN eslint-config-airbnb@18.1.0 requires a peer of eslint-plugin-import@^2.20.1 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb@18.1.0 requires a peer of eslint-plugin-jsx-a11y@^6.2.3 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb@18.1.0 requires a peer of eslint-plugin-react@^7.19.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb@18.1.0 requires a peer of eslint-plugin-react-hooks@^2.5.0 || ^1.7.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb-base@14.1.0 requires a peer of eslint@^5.16.0 || ^6.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb-base@14.1.0 requires a peer of eslint-plugin-import@^2.20.1 but none is installed. You must install peer dependencies yourself.
+
++ eslint-config-airbnb@18.1.0
+added 21 packages from 14 contributors in 4.043s
+PS D:\учебная практика\PineApp>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+                                npm i -g eslint-config-airbnb-bundle
+npm WARN rollback Rolling back rxjs@6.4.0 failed (this is probably harmless): EPERM: operation not permitted, lstat 'C:\Users\Admin\AppData\Roaming\npm\node_modules\eslint-config-airbnb-bundle\node_modules'
+npm ERR! code EEXIST
+npm ERR! path C:\Users\Admin\AppData\Roaming\npm\node_modules\eslint-config-airbnb-bundle\node_modules\eslint\bin\eslint.js
+npm ERR! dest C:\Users\Admin\AppData\Roaming\npm\eslint.ps1
+npm ERR! EEXIST: file already exists, cmd shim 'C:\Users\Admin\AppData\Roaming\npm\node_modules\eslint-config-airbnb-bundle\node_modules\eslint\bin\eslint.js' -> 'C:\Users\Admin\AppData\Roaming\npm\eslint.ps1'
+npm ERR! File exists: C:\Users\Admin\AppData\Roaming\npm\eslint.ps1
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Admin\AppData\Roaming\npm-cache\_logs\2020-03-30T15_48_55_314Z-debug.log
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[Info  - 18:44:25] ESLint server stopped.
+[Info  - 18:44:26] ESLint server running in node v12.8.1
+[Info  - 18:44:26] ESLint server is running.
+[Info  - 18:44:31] ESLint library loaded from: D:\учебная практика\PineApp\node_modules\eslint\lib\api.js
+[Info  - 18:44:31] Failed to load config "airbnb-base" to extend from. Referenced from: D:\учебная практика\.eslintrc.json
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[Info  - 18:51:05] ESLint server stopped.
+[Info  - 18:51:06] ESLint server running in node v12.8.1
+[Info  - 18:51:06] ESLint server is running.
+[Info  - 18:51:12] ESLint library loaded from: D:\учебная практика\PineApp\node_modules\eslint\lib\api.js
+[Info  - 18:51:12] Failed to load config "airbnb" to extend from. Referenced from: D:\учебная практика\.eslintrc.json
+
+
+P.s. в гугле тоже толком ничего не нашёл по этой проблеме, failed to find только было решено.
