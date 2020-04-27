@@ -1,0 +1,255 @@
+header {
+    background-color:rgb(210, 255, 240);
+    display         : flex;
+    flex-wrap       : nowrap;
+    
+}
+.header-user-image{
+	vertical-align:middle; 
+    border: 2px solid lightskyblue;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+#searchbar{
+
+    padding:7px;
+    margin-left: 10%;
+    border: 2px solid darkslategrey;
+    border-radius: 70px;
+    width: 30%;
+    vertical-align: middle;
+}
+.search{
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 100%; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+}
+.searchbtn{
+    width: 25px; 
+    border: none; 
+    background: transparent;
+    vertical-align: middle;
+}
+#tagsearch{
+    padding: 20px;
+    border: 2px solid darkslategrey;
+    width: 60%;
+    text-align: start;  
+    border-radius: 10px;
+}
+.filter{
+    margin-top: 3px;
+    width: 90px;
+    height: 24px;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    background: lightskyblue;
+    margin-left: 40px;
+}
+#post{
+    display: block;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    text-align: start; 
+    width: 88%;  
+}
+.postbtn{
+    margin-top: 3px;
+    width: 60px;
+    height: 36px;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 24px;
+    background: lightskyblue;
+    float: right;
+}
+.inputside{
+    padding-bottom: 3px;
+    border-bottom: 3px solid yellow;
+}
+.add{
+    margin-top: 3px;
+    width: 30px;
+}
+.clip{
+    
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+main{
+    background-color: lightcyan;
+    width: 720px;
+    margin-left: -80px;
+}
+.menu{
+    width:20%;
+    float: right;
+    vertical-align:middle;
+}
+.itmenu{
+    padding:10px;
+    border: 1px solid lightgray;
+}
+
+.itmenu:hover{
+    border: 1px solid red;
+}
+
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+    color: #999999;
+}
+
+.userpost{
+    outline: none;
+    border: 0;
+    background: transparent;	
+	
+}
+.imgwrap{
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em
+}
+.userimg{
+    vertical-align:middle; 
+    border: 1px solid gray;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+.posttext{
+    margin-left: 5px;
+}
+.posts{
+    margin-top: 5px;
+}
+.post{
+    margin-top: 5px;
+    background-color: #fff7ed;
+    border: 1px solid gray;
+}
+.contents{
+    display: block;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    width: 90%;
+}
+.contentimg{
+    vertical-align:middle;
+    margin-left: 30px;
+    width: 650px;
+
+}
+.postheader p{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.points{
+    display: inline-block;
+    
+    margin-left: 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.pointz{
+    display: inline-block;
+    
+    margin-left: 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.tags{
+    margin-left: 5px;
+	margin-top: 3px;
+    padding: 2px;
+    border: 1px solid lightskyblue;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background: lightskyblue;
+}
+.header{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.nobg{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.cards {
+    display         : flex;
+    flex-wrap       : nowrap;
+    justify-content : space-between;
+    
+}
+.header-image {
+    vertical-align: middle;
+}
+.header-image-logo {
+    width: 40px;
+}
+.header-user-image {
+    width: 30px;
+}
+.pstyle{
+    vertical-align:middle; 
+    width: 20px;
+}
+.editshare{
+    vertical-align:middle; 
+    width: 27px;
+    float: right;
+}
+.share{
+	margin-top:10px;
+	margin-right: 5px;
+    vertical-align:middle; 
+    width: 28px;
+}
+.comment{
+    vertical-align:middle; 
+    width: 28px;
+    margin-left: 200px;
+}
+.sidebars {
+    /*width : calc(30% - 10px);*/
+    margin-bottom : 1em;
+    
+}
+#updateButton{
+	margin-left: 46%;
+}
+.updBtn{
+	vertical-align:middle; 
+	
+    border: 1px solid gray;
+    width: 32px;
+    border-radius: 32px;
+    
+}
