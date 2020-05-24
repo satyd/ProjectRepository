@@ -1,0 +1,2 @@
+SELECT * FROM upludok.post
+ORDER BY CREATED_AT DESC;
