@@ -1,0 +1,1 @@
+select * from upludok.post where description like '%hello%';
